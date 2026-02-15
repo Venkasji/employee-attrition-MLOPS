@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-## 🎯 Project Overview
+## Project Overview
 
 This project aims to build an end-to-end MLOps pipeline to predict
 employee attrition using machine learning.\
@@ -13,7 +13,7 @@ and experiment tracking.
 
 ------------------------------------------------------------------------
 
-## ✅ Checkpoint 2 Objectives
+## Checkpoint 2 Objectives
 
 The following deliverables were implemented:
 
@@ -28,7 +28,7 @@ The following deliverables were implemented:
 
 ------------------------------------------------------------------------
 
-## 🧱 Project Structure
+## Project Structure
 
     employee-attrition-mlops/
     │
@@ -50,7 +50,7 @@ The following deliverables were implemented:
 
 ------------------------------------------------------------------------
 
-## 🧪 Unit Testing
+## Unit Testing
 
 Tests are implemented using `pytest` and coverage is measured using
 `pytest-cov`.
@@ -63,7 +63,7 @@ Current coverage: **≥ 70%**
 
 ------------------------------------------------------------------------
 
-## 🔍 Code Quality
+## Code Quality
 
 Pre-commit hooks ensure:
 
@@ -81,7 +81,7 @@ Run manually:
 
 ------------------------------------------------------------------------
 
-## 📊 MLflow Experiment Tracking
+## MLflow Experiment Tracking
 
 MLflow is integrated to track:
 
@@ -111,7 +111,7 @@ Run name example:
 
 ------------------------------------------------------------------------
 
-## 🔁 Reproducibility
+## Reproducibility
 
 Environment managed using UV:
 
@@ -121,7 +121,7 @@ Dependencies tracked in: - `pyproject.toml` - `uv.lock`
 
 ------------------------------------------------------------------------
 
-## 👥 Team Collaboration
+## Team Collaboration
 
 -   All members contribute via GitHub
 -   Clean commit messages following conventional format:
