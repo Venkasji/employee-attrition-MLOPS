@@ -3,6 +3,7 @@ name = "employee-attrition-mlops"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+HEAD
 requires-python = ">=3.14"
 dependencies = [
     "kaggle>=1.8.3",
@@ -11,3 +12,29 @@ dependencies = [
     "requests>=2.32.5",
     "scikit-learn>=1.8.0",
 ]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "fastapi>=0.135.0",
+    "kaggle>=1.8.3",
+    "mlflow>=1.27.0",
+    "numpy>=2.4.1",
+    "pandas>=3.0.0",
+    "protobuf==3.20.3",
+    "requests>=2.32.5",
+    "scikit-learn>=1.8.0",
+    "uvicorn>=0.41.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.5.1",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.uv]
+package = true
+upstream/main
